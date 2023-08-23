@@ -1,0 +1,1 @@
+f1=factor(c("male","female","male","female","male","female","male","female"))
