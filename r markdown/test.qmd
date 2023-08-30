@@ -1,7 +1,8 @@
 ---
-title: "Week 2 test code"
-author:"Sri Lakshmi"
-format: html
+title: "test"
+author: "Sri Lakshmi"
+date: "2023-08-29"
+output: html_document
 ---
 
 ## Quarto

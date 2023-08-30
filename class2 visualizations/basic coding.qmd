@@ -1,0 +1,87 @@
+---
+title: ""
+author: "Sri Lakshmi"
+date: "2023-08-29"
+output: html_document
+---
+We will install `tidyverse` packages using the following command in the **console**.
+
+`install.packages("tidyverse")`
+
+Load the package
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+print(mpg)
+```
+
+```{r}
+head(mpg,n=8)
+```
+```{r}
+tail(mpg,n=8)
+```
+
+```{r}
+slice(mpg,10:20)
+```
+
+```{r}
+dim(mpg)
+```
+```{r}
+nrow(mpg)
+```
+
+```{r}
+ncol(mpg)
+```
+
+```{r}
+class(mpg)
+```
+
+```{r}
+colnames(mpg)
+```
+
+#subsetting columns using select() function
+```{r}
+select(mpg,model,year)
+```
+
+```{r}
+select(mpg,starts_with("c"))
+```
+
+```{r}
+select(mpg,ends_with("l"))
+```
+
+```{r}
+select(mpg,contains("e"))
+```
+##subsetting rows
+```{r}
+filter(mpg,year==2008,cyl>=6)
+```
+
+```{r}
+filter(mpg,(year==2008&cyl>=6))
+```
+
+```{r}
+dt=readr::read_csv("svcckww1jskrstnz_csv.zip")
+```
+
+```{r}
+select(dt,1:7)
+```
+
+
+```{r}
+filter(mpg,(year==2008|cyl>=6))
+```
