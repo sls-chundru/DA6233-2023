@@ -74,7 +74,7 @@ filter(mpg,(year==2008&cyl>=6))
 ```
 
 ```{r}
-dt=readr::read_csv("svcckww1jskrstnz_csv.zip")
+dt=readr::read_csv("svcckww1jskrstnz.csv")
 ```
 
 ```{r}

@@ -22,7 +22,7 @@ summary(cars)
 ## Including Plots
 # Computations
 Here,I am computing average of car statistics
-```{r}
+```{r computs}
 mean(cars$dist)
 ```
 
